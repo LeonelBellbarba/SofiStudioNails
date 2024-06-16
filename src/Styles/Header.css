@@ -1,0 +1,47 @@
+body{background-color: rgb(162, 125, 196);}
+
+header{
+    color: rgb(246, 246, 246);
+    text-shadow: 2px 2px black;
+    background-color: rgb(191, 112, 194);
+    padding: 2%;
+}
+
+.headerBox h1{
+    font-size: 50px;
+}
+
+.botoneraUl{
+    display: inline-flex;
+    list-style: none;
+    margin-right: 55% ;
+}
+
+.botonera{
+    font-size: 20px;
+    padding: 5%;
+    margin-right: 30%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgb(92, 37, 92);
+    padding: 8%;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+
+footer ul{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 60% ;
+}
+
+footer ul li{
+    padding: 4%;
+    margin-left: 44%;
+    font-size: 20px;
+}

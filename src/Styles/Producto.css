@@ -1,0 +1,9 @@
+.cuadroProducto{
+    background-color: rgb(93, 63, 105);
+    display: inline-block;
+    padding: 8%;
+    color: white;
+    text-shadow: 2px 2px black;
+    margin: 2%;
+    
+}
