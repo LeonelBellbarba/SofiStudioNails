@@ -26,22 +26,3 @@ header{
     text-decoration: none;
 }
 
-footer{
-    background-color: rgb(92, 37, 92);
-    padding: 8%;
-    color: white;
-    text-shadow: 2px 2px black;
-
-}
-
-footer ul{
-    list-style: none;
-    display: inline-flex;
-    margin-right: 60% ;
-}
-
-footer ul li{
-    padding: 4%;
-    margin-left: 44%;
-    font-size: 20px;
-}

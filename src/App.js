@@ -2,11 +2,13 @@ import logo from './logo.svg';
 import './App.css';
 import './Styles/Header.css'
 import './Styles/Producto.css'
+import './Styles/Foot.css'
 import Productos from "./Component/Productos"
 import Botonera from './Component/Botonera';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Public from './Public/Public';
 import Kits from './Pages/Kits';
+import Foot from './Component/Foot';
 
 
 function App() {
@@ -33,13 +35,7 @@ function App() {
 
         <div>
             <footer>
-               <h2>Creado por Leonel Bellabarba</h2>
-
-               <ul>
-                <li>¿Que es SofiStudioNails? </li>
-                <li>Horarios</li>
-                <li>Seguinos en:</li>
-               </ul>
+                <Foot/>
             </footer>
         </div>
     </div>
