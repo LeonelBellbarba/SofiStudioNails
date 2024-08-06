@@ -3,7 +3,7 @@ function Foot(){
     return(
         <>
             <div>
-            <h2>Creado por Leonel Bellabarba</h2>
+            <h2 className="footerTitle">Creado por Leonel Bellabarba</h2>
 
            <div className="footBox">
                 <ul>
@@ -20,8 +20,15 @@ function Foot(){
                 </ul>
                 
                 <ul>
-                    <li className="footList"><h3 style={{marginLeft:"67%"}}>Seguinos en:</h3>
-                    <p style={{width:"200%"}}>Instragram, WhatsApp, Facebook</p>
+                    <li className="footList"><h3 style={{marginLeft:"42%", width:"100%"}}>Contactos</h3>
+                        <p style={{width:"200%"}}>
+                            <ul>
+                                <li>Instragram</li> 
+                                <li>WhatsApp</li>
+                                <li>Facebook</li>
+
+                            </ul>
+                        </p>
                     </li>
                 </ul>
             </div> 

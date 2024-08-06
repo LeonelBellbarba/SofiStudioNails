@@ -1,9 +1,31 @@
 .cuadroProducto{
-    background-color: rgb(93, 63, 105);
+    background-color: rgba(25, 25, 26, 0.899);
     display: inline-block;
-    padding: 8%;
-    color: white;
-    text-shadow: 2px 2px black;
+    color: rgb(233, 233, 239);
+    /* text-shadow: 2px 2px black; */
     margin: 2%;
+    width: 19%;    
+    padding-right: 4%;
+    border-radius: 4px;
+    padding: 1%;
+    border-bottom: 3px solid white;
+  }
+  
+  .imagenProducto{
+     height: 271px;
+     width: 100%;
+     border-radius: 4px;
+  }
+  .datosProducto{
+    width: 100%;
     
+  }
+
+.dato{
+  
+}
+
+.productosBox{
+  background-image: url("../../src/ImagesWeb/fondo8.jpg");
+  background-size: contain;
 }

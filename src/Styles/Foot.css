@@ -1,8 +1,19 @@
+footer{
+    background-color: rgb(23, 23, 25);
+    padding: 8%;
+    color: white;
+    text-shadow: 2px 2px black;
+
+}
+.footerTitle{
+    border-bottom: 1px solid rgb(211, 203, 210);
+    padding: 2%;
+}
+
 .footBox{
     display: flex;
     width: 35%;
     margin-left: -8%;
-    
 }
 
 .footBox p{
@@ -13,13 +24,6 @@
     
 }
 
-footer{
-    background-color: rgb(92, 37, 92);
-    padding: 8%;
-    color: white;
-    text-shadow: 2px 2px black;
-
-}
 
 footer ul{
     list-style: none;
