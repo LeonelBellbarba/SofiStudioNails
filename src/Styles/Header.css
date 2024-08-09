@@ -1,45 +1,56 @@
 body{background-color: rgb(162, 125, 196);}
 
 header{
-    padding: 2%;
-    border-bottom: 3px solid rgb(239, 238, 244);
+    
+    padding: 21%;
     background-color: rgb(20, 20, 21);
+    background-image: url("../ImagesWeb/fondo23.jpg");
+    background-size: cover;
+    border-bottom: 4px solid rgb(236, 235, 241);
+    margin-top: -4%;
+
 }
 
 .headerBox h1{
-    font-size: 50px;
+    font-size: 120px;
     /* background-color: rgba(182, 88, 88, 0.833); */
     width: 40%;
     border-radius: 50px;
-    margin-left: 30%;
-    color: rgb(227, 230, 235);
-    text-shadow: 4px 4px black;
+    margin-left: 20%;
+    color: rgba(251, 251, 251, 0.922);
+    text-shadow: 4px 4px rgb(13, 15, 45);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    top: 0;
+    left: 5px;
+
 }
 
 .botoneraBox{
-    /* background-color: rgb(214, 164, 72); */
-    width: 95%;
+    width: 100%;
     /* background-image: url("../ImagesWeb/fondo6.jpg"); */
     background-size: contain;
     margin-left: 1%;
-    
+    text-shadow: 2px 2px black;
+    margin-left: 0;
 }
 .botoneraUl{
     display: inline-flex;
     list-style: none;
-    margin-right: 55% ;
+    margin-left: -102% ;
+    width: 40%;
+    padding: 0;
 }
 
 .botonera{
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 42%;
-    color: rgb(224, 226, 234);
-    text-shadow: 2px 2px rgb(0, 0, 0);
+    color: rgba(237, 239, 242, 0.922);
+    text-shadow: 2px 2px rgb(7, 7, 41);
     text-decoration: none;
-    /* background-color: rgb(182, 88, 88); */
-    border-radius: 50px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
 }
+
+
+
+
 

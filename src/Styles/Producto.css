@@ -1,5 +1,5 @@
 .cuadroProducto{
-    background-color: rgba(25, 25, 26, 0.899);
+    background-color: rgba(53, 10, 56, 0.409);
     display: inline-block;
     color: rgb(233, 233, 239);
     /* text-shadow: 2px 2px black; */
@@ -26,6 +26,9 @@
 }
 
 .productosBox{
-  background-image: url("../../src/ImagesWeb/fondo8.jpg");
-  background-size: contain;
+  background-image: url("../../src/ImagesWeb/fondo25.jpg");
+  background-size: cover;
+  background-position: 1px -355px;
+  padding-bottom: 5%;
+  
 }

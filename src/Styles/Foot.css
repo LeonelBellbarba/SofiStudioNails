@@ -1,8 +1,11 @@
 footer{
-    background-color: rgb(23, 23, 25);
+    background-image: url("../ImagesWeb/fondo27.jpg");
+    background-size: cover;
+    background-position: center;
     padding: 8%;
-    color: white;
+    color: rgb(229, 233, 241);
     text-shadow: 2px 2px black;
+    border-top: 4px solid rgb(212, 210, 231)
 
 }
 .footerTitle{

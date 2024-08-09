@@ -3,7 +3,7 @@ function Foot(){
     return(
         <>
             <div>
-            <h2 className="footerTitle">Creado por Leonel Bellabarba</h2>
+            <h1 className="footerTitle">Creado por Leonel Bellabarba</h1>
 
            <div className="footBox">
                 <ul>
