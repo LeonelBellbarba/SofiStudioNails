@@ -2,52 +2,66 @@ body{background-color: rgb(162, 125, 196);}
 
 header{
     
-    padding: 21%;
     background-color: rgb(20, 20, 21);
-    background-image: url("../ImagesWeb/fondo23.jpg");
+    background-image: url("../ImagesWeb/fondo29.jpg");
     background-size: cover;
-    border-bottom: 4px solid rgb(236, 235, 241);
-    margin-top: -4%;
+    background-position: 0px 41%;
+    border-bottom: 2px solid rgb(244, 238, 243);
+    
 
+}
+
+.headerTextBox{
+    padding: 4%;
+    display: inline-flex;
 }
 
 .headerBox h1{
-    font-size: 120px;
-    /* background-color: rgba(182, 88, 88, 0.833); */
-    width: 40%;
-    border-radius: 50px;
-    margin-left: 20%;
-    color: rgba(251, 251, 251, 0.922);
-    text-shadow: 4px 4px rgb(13, 15, 45);
+    font-size: 40px;
+    color: rgba(182, 78, 165, 0.922);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
-    top: 0;
-    left: 5px;
+    left: 0;
+    top: 1px;
+    padding-left: 2%;
+}
 
+.headerText{
+    color: white;
+    display: inline-block;
+    font-size: 25px;
+    padding: 2%;
+    margin: 1%;
+    background-color: rgba(255, 255, 255, 0.196);
+    border-bottom: 4px solid rgba(168, 70, 152, 0.922);
+    
+}
+
+.headerText h2{
+    text-shadow: 2px 2px black;
+    padding: 2%;
+    color: rgba(221, 101, 201, 0.918);
 }
 
 .botoneraBox{
-    width: 100%;
-    /* background-image: url("../ImagesWeb/fondo6.jpg"); */
-    background-size: contain;
     margin-left: 1%;
-    text-shadow: 2px 2px black;
     margin-left: 0;
+    background-color: rgb(244, 238, 243);
+    border-top: 1px solid rgb(59, 37, 61);
+    /* background-image: url("../ImagesWeb/fondo9.jpg"); */
+
 }
 .botoneraUl{
     display: inline-flex;
     list-style: none;
-    margin-left: -102% ;
-    width: 40%;
-    padding: 0;
 }
 
 .botonera{
     font-size: 25px;
-    margin-right: 42%;
-    color: rgba(237, 239, 242, 0.922);
-    text-shadow: 2px 2px rgb(7, 7, 41);
+    color: rgba(120, 20, 120, 0.922);
     text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 18%;
 }
 
 

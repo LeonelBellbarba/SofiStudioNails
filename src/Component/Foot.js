@@ -1,3 +1,7 @@
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import FacebookIcon from '@mui/icons-material/Facebook';
+
 
 function Foot(){
     return(
@@ -22,10 +26,10 @@ function Foot(){
                 <ul>
                     <li className="footList"><h3 style={{marginLeft:"42%", width:"100%"}}>Contactos</h3>
                         <p style={{width:"200%"}}>
-                            <ul>
-                                <li>Instragram</li> 
-                                <li>WhatsApp</li>
-                                <li>Facebook</li>
+                            <ul className='linkPaginas'>
+                                <li><InstagramIcon style={{fontSize:"2.5rem"}}/></li> 
+                                <li> <WhatsAppIcon style={{fontSize:"2.5rem"}}/></li>
+                                <li><FacebookIcon style={{fontSize:"2.5rem"}}/></li>
 
                             </ul>
                         </p>

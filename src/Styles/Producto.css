@@ -1,5 +1,5 @@
 .cuadroProducto{
-    background-color: rgba(53, 10, 56, 0.409);
+    background-color: rgba(52, 23, 53, 0.854);
     display: inline-block;
     color: rgb(233, 233, 239);
     /* text-shadow: 2px 2px black; */
@@ -8,7 +8,7 @@
     padding-right: 4%;
     border-radius: 4px;
     padding: 1%;
-    border-bottom: 3px solid white;
+    border-bottom: 3px solid rgb(214, 136, 203);
   }
   
   .imagenProducto{
@@ -26,9 +26,11 @@
 }
 
 .productosBox{
-  background-image: url("../../src/ImagesWeb/fondo25.jpg");
+  background-image: url("../../src/ImagesWeb/fondo28.jpg");
+  background-color: rgb(244, 238, 243);
   background-size: cover;
-  background-position: 1px -355px;
-  padding-bottom: 5%;
+  /* background-position: 1px -355px; */
+  padding-bottom: 20%;
+  border-top: 1px solid rgb(59, 37, 61);
   
 }

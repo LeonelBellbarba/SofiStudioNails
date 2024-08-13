@@ -5,7 +5,7 @@ footer{
     padding: 8%;
     color: rgb(229, 233, 241);
     text-shadow: 2px 2px black;
-    border-top: 4px solid rgb(212, 210, 231)
+    border-top: 3px solid rgb(244, 238, 243);
 
 }
 .footerTitle{
@@ -38,4 +38,13 @@ footer ul li{
     margin-left: 44%;
     font-size: 20px;
     width: 150%;
+    
+    
+}
+
+.linkPaginas{
+    display: inline-flex;
+    width: 9%;
+    margin-left: 13%;
+
 }
