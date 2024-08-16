@@ -1,7 +1,7 @@
 .cuadroProducto{
-    background-color: rgba(52, 23, 53, 0.854);
+  background-color: rgba(59, 15, 54, 0.488);
     display: inline-block;
-    color: rgb(233, 233, 239);
+    color: rgba(248, 247, 248, 0.931);
     /* text-shadow: 2px 2px black; */
     margin: 2%;
     width: 19%;    
@@ -31,6 +31,5 @@
   background-size: cover;
   /* background-position: 1px -355px; */
   padding-bottom: 20%;
-  border-top: 1px solid rgb(59, 37, 61);
   
 }

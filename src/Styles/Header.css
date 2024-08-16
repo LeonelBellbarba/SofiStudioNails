@@ -14,6 +14,7 @@ header{
 .headerTextBox{
     padding: 4%;
     display: inline-flex;
+    padding-top: 12%;
 }
 
 .headerBox h1{
@@ -49,11 +50,15 @@ header{
     background-color: rgb(244, 238, 243);
     border-top: 1px solid rgb(59, 37, 61);
     /* background-image: url("../ImagesWeb/fondo9.jpg"); */
-
+    position: fixed;
+    width: 100%;
+    border-bottom: 3px solid rgb(139, 75, 139);
 }
 .botoneraUl{
     display: inline-flex;
     list-style: none;
+    margin-left: 50%;
+    margin-top: 1.2%;
 }
 
 .botonera{
@@ -63,6 +68,29 @@ header{
     font-family: 'Times New Roman', Times, serif;
     margin-right: 18%;
 }
+
+.botoneraPBox{
+    background-color: rgb(244, 238, 243);
+    /* border-top: 4px solid rgb(125, 49, 122);
+    border-bottom: 4px solid rgb(125, 49, 122); */
+}
+.botoneraPUl{
+    display: inline-flex;
+    list-style: none;
+    margin-left: -49%;
+    margin-top: 2%;
+}
+
+.botoneraP{
+    font-size: 28px;
+    color: rgba(120, 20, 120, 0.922);
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 28%;
+
+}
+
+
 
 
 

@@ -24,8 +24,8 @@ function Foot(){
                 </ul>
                 
                 <ul>
-                    <li className="footList"><h3 style={{marginLeft:"42%", width:"100%"}}>Contactos</h3>
-                        <p style={{width:"200%"}}>
+                    <li className="footList"><h3 style={{marginLeft:"9%", width:"100%"}}>Contactos</h3>
+                        <p style={{width:"182%%"}}>
                             <ul className='linkPaginas'>
                                 <li><InstagramIcon style={{fontSize:"2.5rem"}}/></li> 
                                 <li> <WhatsAppIcon style={{fontSize:"2.5rem"}}/></li>
