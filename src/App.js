@@ -22,10 +22,7 @@ function App() {
       {/* Cabezera */}
         <div className="headerBox">
               <Botonera/>
-            <header>
-              <Context/>
-            </header>
-            <BotoneraP/>
+            
         </div>
 
       {/* Main */}

@@ -1,6 +1,6 @@
 body{background-color: rgb(162, 125, 196);}
 
-header{
+.contextBox{
     
     background-color: rgb(20, 20, 21);
     background-image: url("../ImagesWeb/fondo29.jpg");
@@ -9,12 +9,6 @@ header{
     border-bottom: 2px solid rgb(244, 238, 243);
     
 
-}
-
-.headerTextBox{
-    padding: 4%;
-    display: inline-flex;
-    padding-top: 12%;
 }
 
 .headerBox h1{
@@ -27,6 +21,13 @@ header{
     padding-left: 2%;
 }
 
+/* Textos de entrada */
+.headerTextBox{
+    padding: 4%;
+    display: inline-flex;
+    padding-top: 12%;
+}
+
 .headerText{
     color: white;
     display: inline-block;
@@ -35,7 +36,12 @@ header{
     margin: 1%;
     background-color: rgba(255, 255, 255, 0.196);
     border-bottom: 4px solid rgba(168, 70, 152, 0.922);
-    
+    transition: all 1s ease;
+}
+
+.headerText:hover{
+    background-color: rgba(255, 255, 255, 0.477);
+    text-shadow: 2px 1px black;
 }
 
 .headerText h2{
@@ -44,16 +50,16 @@ header{
     color: rgba(221, 101, 201, 0.918);
 }
 
+/* Botonera superior */
 .botoneraBox{
     margin-left: 1%;
     margin-left: 0;
     background-color: rgb(244, 238, 243);
-    border-top: 1px solid rgb(59, 37, 61);
-    /* background-image: url("../ImagesWeb/fondo9.jpg"); */
     position: fixed;
     width: 100%;
     border-bottom: 3px solid rgb(139, 75, 139);
 }
+
 .botoneraUl{
     display: inline-flex;
     list-style: none;
@@ -67,12 +73,20 @@ header{
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     margin-right: 18%;
+    transition: all 1s ease;
+}
+.botonera:hover{
+    color: rgba(210, 72, 210, 0.922);
 }
 
+
+
+/* Botonera Inferior */
 .botoneraPBox{
-    background-color: rgb(244, 238, 243);
-    /* border-top: 4px solid rgb(125, 49, 122);
-    border-bottom: 4px solid rgb(125, 49, 122); */
+    background-image: url("../ImagesWeb/fondo6.jpg");
+    background-color: rgb(244, 216, 218);
+    background-size: contain;
+    
 }
 .botoneraPUl{
     display: inline-flex;
@@ -87,7 +101,12 @@ header{
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     margin-right: 28%;
+    transition: all 1s ease;
+    
+}
 
+.botoneraP:hover{
+    color: rgba(210, 72, 210, 0.922);
 }
 
 

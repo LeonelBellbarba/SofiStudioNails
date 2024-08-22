@@ -2,6 +2,8 @@
 function Context(){
     return(
         <>
+        <div className="contextBox">
+
             <div className='headerTextBox'>
                 <div className='headerText'>
                   <h2>¿Que encontras en SofiStudioNails?</h2>
@@ -24,6 +26,7 @@ function Context(){
                     tengas que relajarte. Nails Factory es lo que necesitas.</p>
                 </div>
               </div>
+        </div>
 
         </>
     )
