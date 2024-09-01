@@ -11,14 +11,25 @@ body{background-color: rgb(162, 125, 196);}
 
 }
 
+/* Cabezera del titulo y demas */
 .headerBox h1{
     font-size: 40px;
-    color: rgba(182, 78, 165, 0.922);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: absolute;
     left: 0;
     top: 1px;
     padding-left: 2%;
+    transition: all 0.5s ease;
+}
+
+.headerBox h1:hover{
+    transform: scale(1.1);
+}
+
+.headerBox h1 a{
+    text-decoration: none;
+    color: rgba(182, 78, 165, 0.922);
+    
 }
 
 /* Textos de entrada */
@@ -40,7 +51,7 @@ body{background-color: rgb(162, 125, 196);}
 }
 
 .headerText:hover{
-    background-color: rgba(255, 255, 255, 0.477);
+    background-color: rgba(22, 2, 2, 0.233);
     text-shadow: 2px 1px black;
 }
 
@@ -109,6 +120,13 @@ body{background-color: rgb(162, 125, 196);}
     color: rgba(210, 72, 210, 0.922);
 }
 
+.mainTextBox{
+    padding: 2%;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.156);
+    text-shadow: 2px 2px black;
+    font-size: 25px;
+}
 
 
 

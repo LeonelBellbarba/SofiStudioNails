@@ -1,3 +1,5 @@
+import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 
 function Context(){
     return(
@@ -26,6 +28,17 @@ function Context(){
                     tengas que relajarte. Nails Factory es lo que necesitas.</p>
                 </div>
               </div>
+
+            <div className="mainTextBox">
+              <div className="mainText">
+                  <h1>Turnos</h1>
+                  <h2><AccessAlarmIcon style={{fontSize:"60px",paddingRight:"1%"}}/>Horarios desde 13hs - 19hs</h2>
+                  <h2><WhatsAppIcon style={{fontSize:"60px",
+                                            paddingRight:"1%",
+                                            marginLeft:"-3%"}}/>WhatsApp: 3471-523641</h2>
+              </div>
+
+            </div>
         </div>
 
         </>
