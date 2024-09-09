@@ -3,6 +3,8 @@ import './App.css';
 import './Styles/Header.css'
 import './Styles/Producto.css'
 import './Styles/Foot.css'
+import './Styles/Loading.css'
+import './Styles/disenos.css'
 import Productos from "./Component/Productos"
 import Botonera from './Component/Botonera';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
@@ -15,7 +17,7 @@ import BotoneraP from './Component/BotoneraP';
 
 function App() {
   return (
-    
+  
     <Router>
 
     <div className="App">

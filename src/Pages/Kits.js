@@ -30,12 +30,14 @@ function Kits(){
     }, []);
 
   if (loading) {
-    return (
+    return(
         <>
-            <h1 className='loading'>Loading...</h1>
-            
+            <div className='loadingBox'>
+                <h1 className='loading'>Cargando...</h1>;
+
+            </div>
         </>
-    )
+    ) 
   }
 
 

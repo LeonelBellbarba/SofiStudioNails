@@ -29,7 +29,14 @@ function Liquidos(){
     }, []);
 
   if (loading) {
-    return <h1>Loading...</h1>;
+    return(
+        <>
+            <div className='loadingBox'>
+                <h1 className='loading'>Cargando...</h1>;
+
+            </div>
+        </>
+    ) 
   }
 
 

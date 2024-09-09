@@ -1,5 +1,6 @@
 import AccessAlarmIcon from '@mui/icons-material/AccessAlarm';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import Face3Icon from '@mui/icons-material/Face3';
 
 function Context(){
     return(
@@ -30,12 +31,22 @@ function Context(){
               </div>
 
             <div className="mainTextBox">
+                  <div className='sofiFace'></div>
               <div className="mainText">
-                  <h1>Turnos</h1>
-                  <h2><AccessAlarmIcon style={{fontSize:"60px",paddingRight:"1%"}}/>Horarios desde 13hs - 19hs</h2>
-                  <h2><WhatsAppIcon style={{fontSize:"60px",
-                                            paddingRight:"1%",
-                                            marginLeft:"-3%"}}/>WhatsApp: 3471-523641</h2>
+                    <div>
+                          <h1>Turnos</h1>
+                          <h2><AccessAlarmIcon className='iconoMainText1' style={{fontSize:"85px"}}/>Horarios: 13hs - 19hs</h2>
+                                                        
+                          <h2><WhatsAppIcon className='iconoMainText2' style={{fontSize:"80px",
+                                                    paddingRight:"1%",
+                                                    marginLeft:"-1%",
+                                                    marginBottom:"-4%"}}/>WhatsApp: 3471-523641</h2>
+                          <h2 style={{marginRight:"-6%"}}>
+                            <Face3Icon className='iconoMainText2' style={{fontSize:"80px",
+                                                    paddingRight:"1%",
+                                                    marginBottom:"-4%"}}/>Diseñadora: Sofia Montero</h2>
+
+                    </div>
               </div>
 
             </div>

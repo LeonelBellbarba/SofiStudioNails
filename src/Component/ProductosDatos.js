@@ -9,7 +9,7 @@ const ProductosDatos = ({ titulo, price, description, imagen }) => {
                 
                 <div className="datosProducto">
                     <h1>{titulo}</h1>
-                    <p>Description: {description}</p>
+                    <p>{description}</p>
                 </div>
         </div>
         </>

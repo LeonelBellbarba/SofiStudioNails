@@ -30,3 +30,8 @@ export async function getAparatosProducts() {
     return querySnapshot.docs.map(doc => doc.data());
 }
 
+export async function getDiseñosProducts() {
+    const querySnapshot = await firebase.firestore().collection("diseños").get();
+    return querySnapshot.docs.map(doc => doc.data());
+}
+

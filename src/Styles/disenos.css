@@ -1,0 +1,29 @@
+.cuadroDiseno{
+    /* background-color: rgba(59, 15, 54, 0.232); */
+      display: inline-block;
+      color: rgba(248, 247, 248, 0.931);
+      margin: 2%;
+      width: 19%;    
+      padding-right: 4%;
+      border-radius: 4px;
+      padding: 1%;
+    
+      margin-top: 12%;
+      
+  
+    }
+
+.diseno{
+    border-radius: 100%;
+    border: 5px solid rgb(154, 93, 162);
+    margin-bottom: -75%;
+}
+
+.disenoBox{
+    background-image: url("../../src/ImagesWeb/fondo11.jpg");
+    background-color: rgb(244, 238, 243);
+    background-size: contain;
+    background-position: 7px 126px;
+    padding-bottom: 20%;
+    
+  }

@@ -8,6 +8,7 @@ import Aparatos from "../Pages/Aparatos"
 
 import Productos from "../Component/Productos"
 import Context from "../Component/Context"
+import Diseños from "../Pages/Diseños"
 
 function Public(){
     return(
@@ -22,6 +23,7 @@ function Public(){
                     <Route path="/liquidos" element={<Liquidos/>}/>
                     <Route path="/aparatos" element={<Aparatos/>}/>
                     <Route path="/productos" element={<Productos/>}/>
+                    <Route path="/diseños" element={<Diseños/>}/>
                   
                 </Routes>
             </div>
