@@ -67,6 +67,7 @@ body{background-color: rgb(162, 125, 196);}
     margin-left: 0;
     background-color: rgb(244, 238, 243);
     position: fixed;
+    z-index: 20000;
     width: 100%;
     border-bottom: 3px solid rgb(139, 75, 139);
 }
@@ -129,7 +130,8 @@ body{background-color: rgb(162, 125, 196);}
     text-shadow: 2px 2px black;
     font-size: 25px;
     display: inline-flex;
-    width: 100%;
+    width: 86%;
+    border-bottom: 2px solid white;
 }
 
 .mainText{

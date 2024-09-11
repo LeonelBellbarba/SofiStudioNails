@@ -13,6 +13,7 @@ import Kits from './Pages/Kits';
 import Foot from './Component/Foot';
 import Context from './Component/Context';
 import BotoneraP from './Component/BotoneraP';
+import CustomCarousel from './Component/Carousel';
 
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       {/* Cabezera */}
         <div className="headerBox">
               <Botonera/>
-            
+        
         </div>
 
       {/* Main */}
