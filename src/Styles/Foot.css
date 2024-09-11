@@ -6,6 +6,7 @@ footer{
     color: rgb(229, 233, 241);
     text-shadow: 2px 2px black;
     border-top: 5px solid rgb(244, 238, 243);
+    
 
 }
 .footerTitle{
@@ -46,5 +47,9 @@ footer ul li{
     display: inline-flex;
     width: 9%;
     margin-left: 13%;
+    
+}
 
+.linkPaginas li:hover{
+    transform: scale(1.1);
 }

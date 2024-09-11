@@ -9,6 +9,7 @@ import Aparatos from "../Pages/Aparatos"
 import Productos from "../Component/Productos"
 import Context from "../Component/Context"
 import Diseños from "../Pages/Diseños"
+import Contacto from "../Pages/Contacto"
 
 function Public(){
     return(
@@ -24,6 +25,8 @@ function Public(){
                     <Route path="/aparatos" element={<Aparatos/>}/>
                     <Route path="/productos" element={<Productos/>}/>
                     <Route path="/diseños" element={<Diseños/>}/>
+                    <Route path="/contacto" element={<Contacto/>}/>
+                    
                   
                 </Routes>
             </div>

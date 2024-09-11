@@ -17,6 +17,12 @@ function CustomCarousel() {
     '/images/CarouselDiseños/producto57.jpeg',
     '/images/CarouselDiseños/producto67.jpeg',
     '/images/CarouselDiseños/producto69.jpeg',
+    '/images/CarouselDiseños/producto15.jpeg',
+    '/images/CarouselDiseños/producto31.jpeg',
+    '/images/CarouselDiseños/producto35.jpeg',
+    '/images/CarouselDiseños/producto42.jpeg',
+    '/images/CarouselDiseños/producto49.jpeg',
+    '/images/CarouselDiseños/producto51.jpeg'
   ];
 
   // Cambia automáticamente de imagen cada 3 segundos

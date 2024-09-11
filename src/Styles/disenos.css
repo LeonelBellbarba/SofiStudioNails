@@ -34,7 +34,7 @@
     height: 600px; /* Ajusta el tamaño según necesites */
     /* transform: translateX(33%); */
     transform: translateX(-5%);
-      background-color: rgb(244, 238, 243);
+  
     
   }
   
@@ -105,19 +105,23 @@
 .buttonRight button{
   color: rgba(182, 78, 165, 0.922);
   border: none;
+  transform: scale(1.5);
+
 }
 
 .buttonLeft button{
   color: rgba(182, 78, 165, 0.922);
-  border: none
+  border: none;
+  transform: scale(1.5);
+
 }
 
 .buttonRight button:hover{
-  transform: scale(1.5);
+  transform: scale(2);
 }
 
 .buttonLeft button:hover{
-  transform: scale(1.5);
+  transform: scale(2);
 }
 
 
