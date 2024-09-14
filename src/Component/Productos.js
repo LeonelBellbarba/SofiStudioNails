@@ -24,7 +24,7 @@ function Productos(){
                         style={{backgroundImage:`url(${AcrilicoProducto})`,
                         backgroundSize:"cover" }}>
                         <Link to="/acrilico" target="_top"  className='seleccionProducto'>
-                        <p style={{marginLeft:"-87%"}}>Acrilico</p></Link></li>
+                        <p style={{marginLeft:"-118%"}}>Acrilico</p></Link></li>
 
             {/* Gel */}
             <li className='seleccionProducto' 
@@ -38,21 +38,21 @@ function Productos(){
                         style={{backgroundImage:`url(${EsmaltesProducto})`, 
                         backgroundSize:"cover"}}>
                         <Link to="/esmaltes" target="_top" className='seleccionProducto'>
-                        <p style={{marginLeft:"-87%"}}>Esmaltes</p></Link></li>
+                        <p style={{marginLeft:"-118%"}}>Esmaltes</p></Link></li>
 
             {/* Liquidos */}
             <li className='seleccionProducto' 
                         style={{backgroundImage:`url(${LiquidosProducto})`, 
                         backgroundSize:"cover"}}>
                         <Link to="/liquidos" target="_top" className='seleccionProducto'>
-                        <p  style={{marginLeft:"-87%"}}>Liquidos</p></Link></li>
+                        <p  style={{marginLeft:"-118%"}}>Liquidos</p></Link></li>
                         
             {/* Aparatos */}
             <li className='seleccionProducto' 
                         style={{backgroundImage:`url(${AparatosProducto})`, 
                         backgroundSize:"cover"}}>
                         <Link to="/aparatos" target="_top" className='seleccionProducto'>
-                        <p  style={{marginLeft:"-87%"}}>Aparatos</p></Link></li>
+                        <p  style={{marginLeft:"-118%"}}>Aparatos</p></Link></li>
             </ul>
     </div>
      

@@ -12,14 +12,14 @@ function Foot(){
            <div className="footBox">
                 <ul>
                     <li className="footList"><h3>¿Que es SofiStudioNails?</h3>
-                    <p>SofiStudioNails es un estudio de uñas elaborado por sofia montero</p>
+                    <p>SofiStudioNails es un estudio de uñas elaborado por Sofia Montero</p>
                     </li>
 
                 </ul>
                     
                 <ul>
                     <li className="footList"><h3 style={{marginLeft:"67%"}}>Horarios</h3>
-                    <p style={{width:"200%"}}>sin horario disponible, a pedido por WhatsApp</p>
+                    <p style={{width:"200%"}}>Los turnos se arreglan por WhatsApp</p>
                     </li>
                 </ul>
                 
@@ -27,9 +27,9 @@ function Foot(){
                     <li className="footList"><h3 style={{marginLeft:"9%", width:"100%"}}>Contactos</h3>
                         <p style={{width:"182%%"}}>
                             <ul className='linkPaginas'>
-                                <li><InstagramIcon style={{fontSize:"2.5rem"}}/></li> 
-                                <li> <WhatsAppIcon style={{fontSize:"2.5rem"}}/></li>
-                                <li><FacebookIcon style={{fontSize:"2.5rem"}}/></li>
+                                <li><a href='https://www.instagram.com/sofy.monteroo/'><button><InstagramIcon style={{fontSize:"2.5rem"}}/></button></a></li> 
+                                <li><a  href='https://web.whatsapp.com/'><button><WhatsAppIcon style={{fontSize:"2.5rem"}}/></button></a></li>
+                                <li><a  href='https://www.facebook.com/profile.php?id=100088755133799'><button><FacebookIcon style={{fontSize:"2.5rem"}}/></button></a></li>
 
                             </ul>
                         </p>
