@@ -50,7 +50,7 @@ function Productos(){
             {/* Aparatos */}
             <li className='seleccionProducto' 
                         style={{backgroundImage:`url(${AparatosProducto})`, 
-                        backgroundSize:"cover"}}>
+                        backgroundSize:"cover", backgroundPosition:"-57px"}}>
                         <Link to="/aparatos" target="_top" className='seleccionProducto'>
                         <p  style={{marginLeft:"-118%"}}>Aparatos</p></Link></li>
             </ul>

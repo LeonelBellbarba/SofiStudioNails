@@ -47,9 +47,15 @@
     padding: 1%;
     border-bottom: 3px solid rgb(214, 136, 203);
     margin-top: 12%;
-    
+    transition: all 0.5s ease;
 
   }
+
+.cuadroProducto:hover{
+  transform: scale(1.1);
+  background-color: rgba(59, 15, 54, 0.729);
+}
+
   /* imagen dentro de producto */
   .imagenProducto{
      height: 271px;

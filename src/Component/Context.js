@@ -36,17 +36,27 @@ function Context(){
                     <div className='sofiFace'></div>
                 <div className="mainText">
                       <div>
-                            <h1>Turnos</h1>
-                            <h2><AccessAlarmIcon className='iconoMainText1' style={{fontSize:"85px"}}/>Horarios: 13hs - 19hs</h2>
-                                                          
-                            <h2><WhatsAppIcon className='iconoMainText2' style={{fontSize:"80px",
-                                                      paddingRight:"1%",
-                                                      marginLeft:"-1%",
-                                                      marginBottom:"-4%"}}/>WhatsApp: 3471-523641</h2>
+                            <h1 style={{color:"rgb(182, 78, 165)", borderBottom:"2px solid white"}}>Turnos</h1>
+                            
+                            {/*Horarios  */}
+                            <h2><AccessAlarmIcon className='iconoMainText1' style={{fontSize:"85px"}}/>
+                                <span style={{color:"rgb(182, 78, 165)"}}>Horarios:</span> 13hs - 19hs</h2>
+
+                            {/*WhatsApp  */}
+                            <h2><WhatsAppIcon className='iconoMainText2' 
+                                 style={{fontSize:"80px",
+                                         paddingRight:"1%",
+                                         marginLeft:"-1%",
+                                         marginBottom:"-4%"}}/>
+                              <span style={{color:"rgb(182, 78, 165)"}}>WhatsApp:</span> 3471-523641</h2>
+
+                            {/* Diseñadora */}
                             <h2 style={{marginRight:"-6%"}}>
-                              <Face3Icon className='iconoMainText2' style={{fontSize:"80px",
-                                                      paddingRight:"1%",
-                                                      marginBottom:"-4%"}}/>Diseñadora: Sofia Montero</h2>
+                              <Face3Icon className='iconoMainText2' 
+                                  style={{fontSize:"80px",
+                                          paddingRight:"1%",
+                                          marginBottom:"-4%"}}/>
+                              <span style={{color:"rgb(182, 78, 165)"}}>Diseñadora:</span> Sofia Montero</h2>
 
                       </div>
                 </div>

@@ -68,7 +68,7 @@ body{background-color: rgb(162, 125, 196);}
     position: fixed;
     z-index: 20000;
     width: 100%;
-    border-bottom: 3px solid rgb(139, 75, 139);
+    border-bottom: 3px solid rgb(182, 78, 165);
     top: 0;
     
     
@@ -138,6 +138,7 @@ body{background-color: rgb(162, 125, 196);}
 
 .mainText{
     display: inline-flex;
+    border-bottom: 2px solid white;
 }
 
 .sofiFace{
