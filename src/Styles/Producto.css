@@ -30,23 +30,27 @@
   color: rgb(241, 233, 233);
   border-bottom: 2px solid pink;
   border-top: 2px solid pink;
-  margin-left: -117%;
-  width: 363%;
+  margin-top:37%;
   
+}
+
+.seleccionProducto li{
+  width: 100%;
+  padding: 23%;
 }
 
 
 .cuadroProducto{
   background-color: rgba(59, 15, 54, 0.488);
     display: inline-block;
-    color: rgba(248, 247, 248, 0.931);
     margin: 2%;
-    width: 19%;    
+    width: 22%;    
     padding-right: 4%;
     border-radius: 4px;
     padding: 1%;
     border-bottom: 3px solid rgb(214, 136, 203);
-    margin-top: 12%;
+    margin-top: 14%;
+    margin-bottom: -8%;
     transition: all 0.5s ease;
 
   }
@@ -56,15 +60,33 @@
   background-color: rgba(59, 15, 54, 0.729);
 }
 
-  /* imagen dentro de producto */
-  .imagenProducto{
-     height: 271px;
+.botonProducto{
+  border: none;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+}
+
+
+
+/* imagen dentro de producto */
+.imagenProducto{
+     height: 300px;
      width: 100%;
      border-radius: 4px;
-  }
+     transition: transform 0.3s ease-in-out;
+}
+
+.imagenGrande {
+  transform: scale(1.5); /* Agranda la imagen al 150% */
+}
+
   .datosProducto{
-    width: 100%;
-    
+    width: 90%;
+    padding: 5%;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(248, 247, 248, 0.931);
   }
 
 /* Fondo de Productos */
@@ -75,4 +97,10 @@
   background-position: 7px 126px;
   padding-bottom: 20%;
   
+}
+
+
+.productosBox ul{
+  width: 94%;
+  margin-left: -3%;
 }

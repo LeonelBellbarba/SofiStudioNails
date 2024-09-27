@@ -87,7 +87,7 @@ body{background-color: rgb(162, 125, 196);}
     text-decoration: none;
     font-family: 'Times New Roman', Times, serif;
     margin-right: 18%;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 .botonera:hover{
     color: rgba(210, 72, 210, 0.922);

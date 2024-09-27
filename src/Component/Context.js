@@ -36,11 +36,11 @@ function Context(){
                     <div className='sofiFace'></div>
                 <div className="mainText">
                       <div>
-                            <h1 style={{color:"rgb(182, 78, 165)", borderBottom:"2px solid white"}}>Turnos</h1>
+                            <h1 style={{color:"rgb(228, 94, 204)", borderBottom:"2px solid white"}}>Turnos</h1>
                             
                             {/*Horarios  */}
                             <h2><AccessAlarmIcon className='iconoMainText1' style={{fontSize:"85px"}}/>
-                                <span style={{color:"rgb(182, 78, 165)"}}>Horarios:</span> 13hs - 19hs</h2>
+                                <span style={{color:"rgb(228, 94, 204)"}}>Horarios:</span> 13hs - 19hs</h2>
 
                             {/*WhatsApp  */}
                             <h2><WhatsAppIcon className='iconoMainText2' 
@@ -48,7 +48,7 @@ function Context(){
                                          paddingRight:"1%",
                                          marginLeft:"-1%",
                                          marginBottom:"-4%"}}/>
-                              <span style={{color:"rgb(182, 78, 165)"}}>WhatsApp:</span> 3471-523641</h2>
+                              <span style={{color:"rgb(228, 94, 204)"}}>WhatsApp:</span> 3471-523641</h2>
 
                             {/* Diseñadora */}
                             <h2 style={{marginRight:"-6%"}}>
@@ -56,7 +56,7 @@ function Context(){
                                   style={{fontSize:"80px",
                                           paddingRight:"1%",
                                           marginBottom:"-4%"}}/>
-                              <span style={{color:"rgb(182, 78, 165)"}}>Diseñadora:</span> Sofia Montero</h2>
+                              <span style={{color:"rgb(228, 94, 204)"}}>Diseñadora:</span> Sofia Montero</h2>
 
                       </div>
                 </div>

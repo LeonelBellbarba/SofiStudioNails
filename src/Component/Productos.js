@@ -13,46 +13,47 @@ function Productos(){
             <ul style={{marginTop:"0"}}>
 
             {/* Kit */}
+            <Link  to="/kits" target="_top" className='seleccionProducto'>
             <li className='seleccionProducto' 
                         style={{backgroundImage:`url(${KitProducto})`, 
                         backgroundSize:"cover"}}>
-                        <Link  to="/kits" target="_top" className='seleccionProducto'>
-                        <p>Kits</p></Link></li>
+                        <p>Kits</p></li></Link>
 
             {/* Acrilico */}
+            <Link to="/acrilico" target="_top"  className='seleccionProducto'>
             <li className='seleccionProducto'  
                         style={{backgroundImage:`url(${AcrilicoProducto})`,
                         backgroundSize:"cover" }}>
-                        <Link to="/acrilico" target="_top"  className='seleccionProducto'>
-                        <p style={{marginLeft:"-118%"}}>Acrilico</p></Link></li>
+                        
+                        <p>Acrilico</p></li></Link>
 
             {/* Gel */}
+            <Link to="/gel" target="_top" className='seleccionProducto'>
             <li className='seleccionProducto' 
                         style={{backgroundImage:`url(${GelProducto})`, 
                         backgroundSize:"cover"}}>
-                        <Link to="/gel" target="_top" className='seleccionProducto' >
-                        <p>Gel</p></Link></li>
+                        <p>Gel</p></li></Link>
 
             {/* Esmaltes */}
+            <Link to="/esmaltes" target="_top" className='seleccionProducto'>
             <li className='seleccionProducto'  
                         style={{backgroundImage:`url(${EsmaltesProducto})`, 
                         backgroundSize:"cover"}}>
-                        <Link to="/esmaltes" target="_top" className='seleccionProducto'>
-                        <p style={{marginLeft:"-118%"}}>Esmaltes</p></Link></li>
+                        <p>Esmaltes</p></li></Link>
 
             {/* Liquidos */}
+            <Link to="/liquidos" target="_top" className='seleccionProducto'>
             <li className='seleccionProducto' 
                         style={{backgroundImage:`url(${LiquidosProducto})`, 
                         backgroundSize:"cover"}}>
-                        <Link to="/liquidos" target="_top" className='seleccionProducto'>
-                        <p  style={{marginLeft:"-118%"}}>Liquidos</p></Link></li>
+                        <p>Liquidos</p></li></Link>
                         
             {/* Aparatos */}
+            <Link to="/aparatos" target="_top" className='seleccionProducto'>
             <li className='seleccionProducto' 
                         style={{backgroundImage:`url(${AparatosProducto})`, 
                         backgroundSize:"cover", backgroundPosition:"-57px"}}>
-                        <Link to="/aparatos" target="_top" className='seleccionProducto'>
-                        <p  style={{marginLeft:"-118%"}}>Aparatos</p></Link></li>
+                        <p>Aparatos</p></li></Link>
             </ul>
     </div>
      
